@@ -9,7 +9,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score, classification_report, confusion_matrix 
 
 # 1. Load dataset
-df = pd.read_csv(r"C:\python\Case_Study_1\diabetic_data.csv")
+df = pd.read_csv("diabetic_data.csv")
 
 # 2. Create 30-day readmission target
 df = df[df["readmitted"].isin(["<30", ">30", "NO"])]
