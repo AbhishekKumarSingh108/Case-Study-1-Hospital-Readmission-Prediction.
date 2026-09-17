@@ -1,6 +1,7 @@
 import pandas as pd
 import joblib
-model = joblib.load(r"C:\python\hospital_readmission_model.pkl")    
+
+model = joblib.load("hospital_readmission_model.pkl")
 
 new_patient = pd.DataFrame({
     "age": ["70-80"],
