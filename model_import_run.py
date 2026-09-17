@@ -15,4 +15,4 @@ new_patient = pd.DataFrame({
 
 probability = model.predict_proba(new_patient)[0, 1]
 
-print("30-day readmission probability:", probability)
+print("30-day readmission probability:", f"{probability * 100:.2f}%")
