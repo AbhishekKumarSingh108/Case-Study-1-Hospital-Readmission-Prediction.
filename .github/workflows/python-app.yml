@@ -28,7 +28,7 @@ jobs:
       - name: Run main.py
         run: python main.py
 
-      - name: Run case_study_1(pred).py
+      - name: Run model_import_run.py
         run: python Run model_import_run.py
 #
 # GitHub Actions runs commands through a Linux shell, and ( and ) have special meaning to the shell. 
