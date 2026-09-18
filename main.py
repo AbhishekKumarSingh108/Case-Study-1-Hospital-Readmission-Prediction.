@@ -86,7 +86,7 @@ model.fit(X_train, y_train)
 
 
 # 8. Predict probability
-y_prob = model.predict_proba(X_test)[:, 1]
+y_prob = model.predict_proba(X_test)[:, 1]     # probability of the positive class (readmitted within 30 days)
 
 
 # 9. ROC-AUC
